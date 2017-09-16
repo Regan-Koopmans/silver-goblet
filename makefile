@@ -1,5 +1,5 @@
 make:
-	gcc -z execstack -mpreferred-stack-boundary=4 main.c -o main -g -fno-stack-protector
+	gcc -z execstack -mpreferred-stack-boundary=2 main.c -o main -g -fno-stack-protector -m32
 
 run:
 	./main
